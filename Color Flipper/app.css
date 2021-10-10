@@ -88,6 +88,8 @@ main {
 
     background:#0984e3;
     color: white;
+
+    cursor: pointer;
 }
 
 #generate-button:hover {
