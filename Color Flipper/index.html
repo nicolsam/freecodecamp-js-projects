@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Color Flipper</h1>
+            <div id="color-types">
+                <ul>
+                    <li><button class="color-type">Simple</button></li>
+                    <li><button class="color-type">HEX</button></li>
+                </ul>
+            </div>
+        </header>
+
+        <main id="generate-background">
+
+            <div id="generate-color">
+                <p>Background color : #<span id="generated-color"></span></p>
+            </div>
+            
+            <div id="generate">
+                <button id="generate-button">Generate new color</button>
+            </div>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
