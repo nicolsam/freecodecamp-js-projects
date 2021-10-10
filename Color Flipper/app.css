@@ -86,10 +86,8 @@ main {
     /* box-shadow: 3px 3px 3px black; */
     transition: var(--animation-time);
 
-    background: #ffff;
-    color: black;
-
-    border: 2px solid var(--button-border);
+    background:#0984e3;
+    color: white;
 }
 
 #generate-button:hover {
