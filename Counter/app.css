@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --h1-font-size: 72px; 
+    --counter-font-size: 62px;
+    --control-button-font-size: 24px;
+    --control-button-background: #0984e3;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.container h1 {
+    margin-bottom: 15px;
+    font-size: var(--h1-font-size);
+    font-family: 'Roboto', sans-serif;
+}
+
+#counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#counter-value {
+    font-size: var(--counter-font-size);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+
+.control-button {
+    cursor: pointer;
+    
+    padding: 10px 20px;
+    
+    font-size: var(--control-button-font-size);
+    
+    background: var(--control-button-background);
+    color: white;
+
+    border: 0;
+    
+    transition: .4s;
+
+}
+
+.control-button:hover {
+    filter: brightness(0.8);
+}
